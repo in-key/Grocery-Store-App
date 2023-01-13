@@ -34,3 +34,5 @@ export const changeLike = (produce) => {
         produce
     })
 }
+
+export const getAllProduce = (state) => Object.values(state.produce);
